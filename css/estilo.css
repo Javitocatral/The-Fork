@@ -1,0 +1,565 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    margin: 0%;
+}
+.registrar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: hsl(240, 7%, 97%);
+    padding: 15px;
+    color: hsl(104, 38%, 42%);
+}
+.registrar span{
+    padding: 0px 15px;
+}
+.registrar span a{
+    color: hsl(104, 38%, 42%);
+    text-decoration: none;
+    font-family: raleway;
+    font-size: 15px;
+    font-weight: 500;
+}
+.registrar span a:hover{
+  text-decoration: underline;
+ 
+}
+.logo{z-index: 2;
+    position: sticky;
+    top: 0px;
+  background-color:white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   padding: 25px;
+   box-shadow: rgb(0 0 0 / 12%) -0.0625rem 0.1875rem 0.375rem;
+}
+.logo svg{
+    
+   fill: hsl(104, 38%, 42%);
+}
+.logo svg path.fork{
+    fill: black;
+}
+.logo .iniciar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iniciar span a{
+    color: hsl(104, 38%, 42%);
+    text-decoration: none;
+    font-family: raleway;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.regalo{
+    position: relative;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(153.43deg, hsl(104, 28%, 74%) 0%, hsl(104, 27%, 92%) 100%);
+    flex-direction: row; position: relative; 
+    overflow: hidden;
+
+    
+}
+
+.regalo .linea{
+    width: 10px;
+    height: 100%;
+    background-color:hsl(104, 38%, 42%) ;
+    z-index: 2;
+    position: absolute;
+}
+.regalo .tenedor{
+    position: absolute;
+      right: 0px;
+      bottom: -20px;
+}
+.contenido{
+    width: 100%;
+    margin: 0px 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.regalo .imagen{
+    width: 8%;
+}
+.regalo .nuevo{
+    width: 55%;
+    font-family: raleway;
+    font-size: 16px;
+    font-weight:300;
+    
+}
+.regalo .descubre{
+    width: 30%;
+}
+.descubre .tarjeta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:88%;
+    height: 30px;
+    background-color: hsl(104, 38%, 42%);
+    border-radius: 5px;
+    
+}
+.tarjeta a{
+    text-decoration: none;
+    color: white;
+    font-family: raleway;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.plato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f6f4;
+    
+}
+.mejor{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    flex-direction: column;
+    width: 50%;
+}
+.reserva{
+    width: 500px;
+}
+.contenedor{ padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+   
+    margin-bottom: 30px;
+    box-shadow: rgb(0 0 0 / 12%) -0.0625rem 0.1875rem 0.375rem;
+}
+.reserva h1{
+    padding-right: 20px;
+    font-family: raleway;
+    font-size: 35px;
+    font-weight: 600;
+}
+.foto{
+    width: 50%;
+    
+}
+.foto img{object-fit: cover;
+    width: 700px;
+   
+}
+
+label{
+   
+    font-family: raleway;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 25px 0px 5px 0px;
+} 
+input{
+    border: none;
+    
+    font-style: italic;
+    font-family: raleway;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+}
+.contenedor .que{
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+}
+.que:hover{
+    border: 1px solid hsl(104, 38%, 42%);
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    font-family: raleway;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(104, 38%, 42%);
+    margin: 30px 0px;
+    height: 40PX;
+    width: 100%;
+}
+button:hover{
+    background-color: hsl(104, 39%, 32%);
+}
+.todo{max-width: 100%;
+     width: 1000px;
+    margin: 0px auto;
+}
+.brindar{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brindar a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.corazon{
+    
+   margin-top: 30px;
+}
+.corazon img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.enunciado{
+    margin: 50px 0px 10px 0px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    font-family: raleway;
+    font-size: 13px;
+    font-weight: 400;
+    
+    color: rgb(60, 64, 72);
+}
+.sola{
+    margin-top: 50px;
+}
+.flecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajita{  color: rgb(150, 149, 149);
+    margin-left: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(223, 221, 221);
+    font-size: 25px;
+}
+.dos{
+    background-color: white;
+    border: 1px solid grey;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.dos:hover{
+    color: #5a9442;
+    background-color: #deeadc;
+}
+.oferta{
+  
+    display: flex;
+    justify-content: center;
+}
+.oferta .gana{
+    padding: 20px;
+    color: rgb(60, 64, 72);
+    font-family: raleway;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33.3%;
+     
+}
+
+.gana:hover{
+    box-shadow: rgb(0 0 0 / 12%) -0.0625rem 0.1875rem 0.375rem;
+}
+.gana img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.gana h5{
+    margin: 5px;
+    font-size: 16px;
+    
+}
+.gana p{
+    margin: 5px 0px;
+    font-size: 13px;
+}
+.gana h6{ 
+    font-size: 13px;
+    margin: 0px;
+    color: #5a9442; 
+}
+.selecionados{
+  
+    display: flex;
+
+}
+.peque{
+    color: rgb(60, 64, 72);
+    font-family: raleway;
+    padding: 8px;
+    width: 25%;
+    
+}
+.peque .nota{
+    display: flex;
+    justify-content: space-between;
+}
+.peque .insider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c4048;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+}
+.peque .porcentaje{
+    margin-bottom: 5px;
+    display: flex;
+}
+.peque .negro{
+    margin-right: 5px;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    width: 55px;
+    height: 25px;
+}
+.nota h5{
+    color: black;
+}
+.peque p{
+    font-size: 12px;
+}
+.insider span{
+    font-size: 10px;
+    color: white;
+}
+.peque svg{
+   fill:  #5a9442;
+    width: 60px;
+    height: 110px;
+}
+
+.estrella svg{
+    width: 25px;
+}
+.Madrid{
+    background-image: url(https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/328022.jpg);
+    
+}
+.barcelona{
+    background-image: url(https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/41710.jpg);
+}
+.valencia{
+    background-image: url(https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/572981.jpg);
+}
+.sevilla{
+    background-image: url(https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/506461.jpg);
+}
+.zaragoza{
+    background-image: url(https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/613552.jpg);
+}
+.bilbao{
+    background-image: url(https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/55170.jpg);
+}
+ h2{            
+    color: white;
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    
+    
+}
+.ciudad{
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 11px;
+  padding: 5px;
+ width:152px;
+    height: 152px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.city{border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15px;
+  padding: 5px;
+ width: 33.3%;
+    height: 228px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.city h2{
+    font-size: 35px;
+    padding-bottom: 3px;
+}
+.paris{
+    background-repeat:no-repeat ;
+background-image: url(https://c.tfstatic.com/w_280,h_200,c_fill,g_auto:subject,q_auto,f_auto/homepage_city_restaurant/415144.jpg);
+
+}
+.lyon{ background-repeat:no-repeat ;
+    background-image: url(https://c.tfstatic.com/w_280,h_200,c_fill,g_auto:subject,q_auto,f_auto/homepage_city_restaurant/326512.jpg);
+}
+.marsella{ background-repeat:no-repeat ;
+background-image: url(https://c.tfstatic.com/w_280,h_200,c_fill,g_auto:subject,q_auto,f_auto/homepage_city_restaurant/336326.jpg);
+}
+.info h1{
+    margin-top: 50px;
+}
+.info p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.propietario{
+    border: 1px solid grey;
+    display: flex;
+    
+    margin-bottom: 25px;
+}
+.chino img{
+    height: 100%;
+   width: 500px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3c4048;
+    margin-left: 10px;
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: 600;
+}
+.option h5{
+    margin: 15px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.option p{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.informacion{
+    margin-bottom: 15px;
+}
+.informacion span{
+    color: #5a9442;
+    border:1px solid #5a9442;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    
+}
+.informacion span:hover{
+    background-color:#e8f0e5 ;
+}
+.informacion a{
+    color: #437132;
+    text-decoration: none;
+    border:  #437132;
+}
+.fin{
+    
+    max-width: 100%;
+    width: 100%;
+}
+.gris{
+    display: flex;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+     background-color: #3c4048;
+}
+.gris h2{
+    font-weight: 300;
+    margin: 0px 0px 0px 10%;
+    font-size: 15px;
+}
+.aplicacion{display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    padding: 0px 10%;
+}
+.descargas{
+    fill: white;
+    display: flex;
+    flex-direction: row;
+}
+.aplicacion p{ text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 15px 0px;
+}
+.aplicacion a{
+    color: white;
+    text-decoration: none;
+}
+.quienes{margin: 20px 0px;
+    width: 25%;
+}
+.quienes h2{
+    margin-top: 15px;
+    font-size: 20px;
+    position: relative;
+}
+.quienes p{
+    font-size: 18px;
+    text-align: left;
+}
+.manzana{
+    margin:  15px 0px;
+}
+.manzana img{
+    
+    width: 147px;
+}
+.quienes .icon{
+padding: 15px;
+}
+.quienes i{
+    margin-left: 15px;
+    color: white;
+
+    font-size: 50px;
+}
+
+
+
+
